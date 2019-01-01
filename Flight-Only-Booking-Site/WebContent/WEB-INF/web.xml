@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Flight</display-name>
+  <servlet>
+    <servlet-name>A</servlet-name>
+    <servlet-class>Book</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>A</servlet-name>
+    <url-pattern>/book</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+    <servlet>
+    <servlet-name>B</servlet-name>
+    <servlet-class>Book2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>B</servlet-name>
+    <url-pattern>/book2</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>login-1</servlet-name>
+    <servlet-class>Login1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login-1</servlet-name>
+    <url-pattern>/login-1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Register-1</servlet-name>
+    <servlet-class>Register1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register-1</servlet-name>
+    <url-pattern>/Register-1</url-pattern>
+  </servlet-mapping>
+</web-app>
+
+
+
+
+
