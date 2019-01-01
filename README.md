@@ -1,1 +1,6 @@
-# Flight,is online flight booking system, it is an web application based on java servlet in back-end and jsp,html,css,javascript in front end.
+# It is online flight Booking system
+Front-end technology: HTML,CSS,JAVASCRIPT,JSP 
+Back-end : Java Servlets
+Database : MYSQL 
+Application server : Apache tomcat 
+Database connectivity using : JDBC
